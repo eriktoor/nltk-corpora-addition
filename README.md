@@ -10,3 +10,9 @@ Run in command line
 2. `pip install os`
 3. `pip install requests`
 4. `pip install urllib3`
+
+# How to run the program 
+1. clone the repository 
+2. create a corpora library in the folder of the scraper 
+3. run `python3 main.py` in the command line 
+** Note that given the thousands of web requests that this scraper takes approximately 40 hours to scrape all of this information. Consequently, if you are cut for time I would recommend running this on multiple VM's as a batch job rather than your local. 
